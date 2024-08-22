@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Tereza Hanáková -->
+  <!-- Thanakova96@gmail.com -->
+  <!-- tereza_h. -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/register.css" />
+    <link rel="stylesheet" href="./css/query_style.css" />
+    <script
+      src="https://kit.fontawesome.com/0c22455039.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#register">Register</a></li>       
+        </ul>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div id="about-us" class="about">
+          <h1 class="about-heading">Upper Austria</h1>
+          <div class="text">
+            <p>
+              Upper Austria, known as Oberösterreich in German, is a captivating
+              region that offers an enticing mix of natural beauty, cultural
+              heritage, and outdoor adventures. Nestled in the northern part of
+              Austria, this region is characterized by its picturesque landscapes,
+              from the rolling hills and dense forests to the stunning Alpine
+              peaks and tranquil lakes. The capital city, Linz, is a vibrant
+              cultural hub with a rich history, modern art installations, and a
+              dynamic music scene, offering a perfect blend of tradition and
+              contemporary flair.
+            </p>
+
+            <p>
+              For nature enthusiasts, Upper Austria is a paradise. The
+              Salzkammergut area, a UNESCO World Heritage site, boasts
+              crystal-clear lakes like Wolfgangsee and Hallstätter See, surrounded
+              by majestic mountains. Hiking, cycling, and water sports are popular
+              activities here, providing endless opportunities to explore the
+              great outdoors. In winter, the region transforms into a snowy
+              wonderland, with numerous ski resorts such as Dachstein West
+              offering excellent slopes for skiing and snowboarding.
+            </p>
+
+            <p>
+              Cultural experiences abound in Upper Austria, with charming towns
+              like Hallstatt and Bad Ischl that are steeped in history. Hallstatt,
+              often referred to as one of the most beautiful villages in the
+              world, is renowned for its prehistoric salt mines and picturesque
+              setting by the lake. Bad Ischl, once the summer residence of Emperor
+              Franz Joseph I, offers a glimpse into imperial history with its
+              grand villas and the Kaiserpark.
+            </p>
+
+            <p>
+              Upper Austria's culinary scene is equally impressive, featuring
+              hearty regional dishes and world-famous pastries. Traditional
+              taverns, known as Gasthäuser, serve delicious meals made from
+              locally sourced ingredients, while charming cafes offer a taste of
+              the region's famous Linzer Torte.
+            </p>
+
+            <p>
+              Whether you're seeking outdoor adventures, cultural enrichment, or
+              simply a serene escape, Upper Austria has something to offer every
+              traveler. Its unique blend of natural splendor and rich heritage
+              makes it a destination worth exploring.
+            </p>
+          </div>
+        </div>
+
+        <div id="gallery">
+          <div class="image-section">
+            <div class="image-container">
+              <img class="image" src="./img/hallstatt.jpg" alt="/" />
+            </div>
+            <div class="image-container">
+              <img class="image" src="./img/Dachstein.jpg" alt="/" />
+            </div>
+            <div class="image-container">
+              <img class="image" src="./img/linz.jpg" alt="/" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="register" class="register">
+        <div class="register-content">
+          <h1 class="register-heading">Sign Up for Exclusive Travel Tips and Insights</h1>
+          <p>Planning a trip to Upper Austria? Make the most of your journey with our expert travel tips! When you register with us, you’ll receive:</p>
+          <ul>
+              <li><strong>Insider Information:</strong> Discover hidden gems and must-see attractions that only locals know about.</li>
+              <li><strong>Personalized Recommendations:</strong> Get tailored advice based on your interests, whether you’re into adventure, culture, history, or cuisine.</li>
+              <li><strong>Exclusive Offers:</strong> Be the first to know about special deals, discounts, and events happening throughout Upper Austria.</li>
+              <li><strong>Travel Guides:</strong> Access comprehensive guides that help you plan your itinerary, from the best hiking trails to the top dining spots.</li>
+              <li><strong>Local Stories:</strong> Read fascinating stories about the history, culture, and people of Upper Austria, making your trip more enriching.</li>
+          </ul>
+          <h2 class="register-heading">Join Our Travel Community Today!</h2>
+          <p>Register now to start receiving your exclusive travel tips and make your Upper Austria adventure unforgettable. It’s free and takes just a moment!</p>
+          
+          <p>Explore. Experience. Enjoy Upper Austria with us!</p>
+      </div>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <label for="first-name">Name and Surname</label>
+            <input
+              id="first-name"
+              type="text"
+              name="first-name"
+              placeholder="First Name"
+            />
+            <input
+              id="surname"
+              type="text"
+              name="second-name"
+              placeholder="Surname"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="E-mail address"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="Password"
+            />
+            <input
+              id="password-check"
+              type="password"
+              name="password-check"
+              placeholder="Enter password again"
+            />
+          </div>
+          <button id="submit-button" class="form-button" type="submit">Send</button>
+          <button class="form-button" type="submit">Clear</button>
+        </form>
+        <div id="error-info" class="error-info"></div>
+        <div id="send-info" class="send-info"></div>
+      </section>
+    </main>
+    <div class="up-icon">
+      <i class="fa-solid fa-arrow-up fa-beat"></i>
+    </div>
+    <div class="mode-icon">
+      <i class="fa-regular fa-moon"></i>
+      <!-- <i class="fa-regular fa-sun"></i> -->
+    </div>
+    <footer>
+      <h6 class="copyright-info">
+        © 2023 - Upper Austria Travel Tips. All Rights Reserved.
+      </h6>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
